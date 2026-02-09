@@ -1,6 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: 
+      linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+      url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-attachment: fixed;
+  }
+
+  header {
+    background: 
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  section {
+    background: white;
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  /* Symbol icons using emoji (light & SEO safe) */
+  section::before {
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    opacity: 0.2;
+  }
+
+  section:nth-child(1)::before { content: "🚀"; }
+  section:nth-child(2)::before { content: "💡"; }
+  section:nth-child(3)::before { content: "🛠️"; }
+  section:nth-child(4)::before { content: "📈"; }
+  section:nth-child(5)::before { content: "🤝"; }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: white;
+  }
+
+  a.cta {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background: #ff9800;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  </style>
   <meta charset="UTF-8">
 
   <title>Funngro for Companies – Hire Teen Freelancers & Student Talent</title>
